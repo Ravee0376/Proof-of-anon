@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'VT323', sans-serif; 
+}
+
+.section_welcome {
+    text-align: center;
+    padding: 10px;
+    margin: 10px; 
+    border: 2px solid #448EDE; 
+    border-radius: 20px 30px 30px 20px; 
+    background: rgba(255, 255, 255, 0); /* Set the background color to fully transparent */
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.welcome_text {
+    color: #448EDE;
+    margin-bottom: 20px;
+    font-family: 'VT323', sans-serif;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.button {
+    width: 100%;
+    color: #83bbff;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* font-family: "Researcher Researcher Squid 700", sans-serif; */
+    font-family: 'VT323', sans-serif;
+    line-height: 18px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 33px;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #022231ea;
+}
+
+
